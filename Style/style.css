@@ -68,10 +68,13 @@ body {
     cursor: pointer;
 }
 .login-button:hover {
-    background-color: white;
-    color: #2563eb;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
     opacity: 0.15px;
+}
+.login-button:active {
+    background-color: white;
+    color: #2563eb;
+    
 }
 
 .signup {
@@ -118,10 +121,12 @@ body {
     
 }
 .facebook-button:hover {
-    background-color: white;
-    color: #3b5998;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
     opacity: 0.15px;
+}
+.facebook-button:active {
+    background-color: white;  
+    color: #3b5998;
 }
 .facebook-icon {
     width: 20px;
@@ -166,4 +171,5 @@ body {
     cursor: pointer;
 
 }
+
 
