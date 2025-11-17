@@ -155,11 +155,13 @@ body {
 
 }
 .google-button:hover {
-    background: 1px solid #ccc;
-    border: white;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
     opacity: 0.15px;
 
+}
+.google-button:active {
+    background: 1px solid #ccc;
+    border: white;
 }
 .google-icon {
     width: 20px;
@@ -171,5 +173,6 @@ body {
     cursor: pointer;
 
 }
+
 
 
